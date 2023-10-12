@@ -10,7 +10,7 @@ const App = (): JSX.Element => {
     <SafeAreaView>
       {/*safe area help from notches*/}
       <View>
-        <Text style={isDarkMode ? style.whiteText : style.whiteText}>
+        <Text style={isDarkMode ? style.whiteText : style.darkText}>
           Hello World
         </Text>
       </View>
@@ -20,11 +20,12 @@ const App = (): JSX.Element => {
 
 // creation of stylesheet
 const style = StyleSheet.create({
+
   whiteText: {
-    color: '#fff',
+    color: '#ff00ff',
   },
   darkText: {
-    color: '#000',
+    color: '#00ff00',
   },
 });
 
