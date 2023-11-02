@@ -15,3 +15,12 @@ some build in method
 uniform vec2 
 
 ```
+
+## variying 
+
+`variying` are used to pass data between fragment shader and vertex shader.
+The the below syntax is used to share the data among both vertex and fragment shaders
+
+```glsl
+varying vec2 name;
+```
